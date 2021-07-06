@@ -1,0 +1,12 @@
+{
+	"folders": [
+
+		{
+			"path": "/Users/rudfaden/Dropbox/Programming/Python/FlaskApp/venv"
+		},
+		{"path": "/Users/rudfaden/Dropbox/Programming/Python/FlaskApp"}
+	],
+	"settings": {
+		"python.pythonPath": "bin/python3"
+	}
+}

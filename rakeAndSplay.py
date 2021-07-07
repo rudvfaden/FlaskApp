@@ -13,3 +13,5 @@ def chairAngles(rake, splay):
 	    return math.degrees(sigthAngle), math.degrees(resultant)
 	else:
 		return -1,-1
+
+sigthAngle, resultant = chairAngles(15, 22)

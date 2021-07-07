@@ -1,10 +1,10 @@
-from flask import Flask
-import rakeAndSplay
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
 @app.route("/")
-sigthAngle, resultant = chairAngles(15, 22)
+def index():
+    return render_template('index.html')
 
-print("Sighting:  {0} \nResultant: {1}".format(
-    round(sigthAngle, 1), round(resultant, 1)))
+if __name__=="__main__":
+    app.run(debug=True)

@@ -15,3 +15,5 @@ def chairAngles(rake, splay):
 		return -1,-1
 
 sigthAngle, resultant = chairAngles(15, 22)
+
+print(sigthAngle, resultant)
